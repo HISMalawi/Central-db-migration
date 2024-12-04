@@ -34,7 +34,7 @@ def migrate_table(db_name, db_config, table_name, site_id, central_engine, disab
         cursor = source_conn.cursor()
 
         # Fetch rows from source table
-        cursor.execute(f"SELECT * FROM {table_name} LIMIT 10")
+        cursor.execute(f"SELECT * FROM {table_name}")
         rows = cursor.fetchall()
  
         if not rows:
