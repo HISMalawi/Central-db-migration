@@ -1,0 +1,35 @@
+central_db: "mysql+pymysql://root:@localhost/central_emr"
+
+source_databases:
+  openmrs_salima:
+    host: "localhost"
+    user: "root"
+    password: ""
+    database: "openmrs_salima"
+  openmrs_dedza:
+    host: "localhost"
+    user: "root"
+    password: ""
+    database: "openmrs_dedza"
+
+tables_to_migrate:
+  - person
+  - users
+  - role_role
+  - role_privilege
+  - relationship
+  - pharmacy_obs
+  - pharmacy_stock_verifications
+  - pharmacy_stock_balances
+  - pharmacy_batches
+  - pharmacy_batch_items
+  - person_name
+  - person_attribute
+  - person_address
+  - patient_state
+  - patient_program
+  - patient_identifier
+  - obs
+  - orders
+  - encounter
+  - drug_order
