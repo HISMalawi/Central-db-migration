@@ -32,7 +32,7 @@ The migration script uses a YAML configuration file to define database connectio
 
 ## Key Sections
 
-### 1. **Central Database (`central_db`)**
+#### 1. **Central Database (`central_db`)**
 
 Defines the connection string for the central database where the data will be consolidated. This is specified using SQLAlchemy's database URI format.
 
@@ -42,7 +42,7 @@ central_db: "mysql+pymysql://<user>:<password>@<host>/<database>"
 ```
 
 
-### 2. Source Database 
+#### 2. Source Database 
 
 Lists the source databases with their connection details. Each database entry includes:
 
@@ -53,7 +53,7 @@ password: The password for authentication (leave blank if no password is require
 database: The name of the database to connect to.
 ```
 
-### 3. Tables_to_migrate
+#### 3. Tables_to_migrate
 
 Lists of tables
 
