@@ -36,7 +36,7 @@ The migration script uses a YAML configuration file to define database connectio
 
 Defines the connection string for the central database where the data will be consolidated. This is specified using SQLAlchemy's database URI format.
 
-**Format**:  
+**format**:  
 ```yaml
 central_db: "mysql+pymysql://<user>:<password>@<host>/<database>"
 ```
@@ -46,6 +46,7 @@ central_db: "mysql+pymysql://<user>:<password>@<host>/<database>"
 
 Lists the source databases with their connection details. Each database entry includes:
 
+**format**: 
 ```yaml
 host: The hostname or IP address of the database server.
 user: The username for authentication.
