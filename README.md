@@ -42,3 +42,15 @@ central_db: "mysql+pymysql://<user>:<password>@<host>/<database>"
 ```
 
 
+### 2. Source Database 
+
+Lists the source databases with their connection details. Each database entry includes:
+
+```yaml
+host: The hostname or IP address of the database server.
+user: The username for authentication.
+password: The password for authentication (leave blank if no password is required).
+database: The name of the database to connect to.
+```
+
+
