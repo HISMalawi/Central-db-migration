@@ -54,7 +54,7 @@ password: The password for authentication (leave blank if no password is require
 database: The name of the database to connect to.
 ```
 
-#### 3. Tables_to_migrate
+#### 3. Tables to migrate
 
 List of tables
 
