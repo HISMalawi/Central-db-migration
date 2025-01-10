@@ -1,4 +1,4 @@
-# central_db_migration
+# Central_db_migration
 
 This Python script is used to migrate data from multiple facility databases to a central database. The script ensures consistency and integrity while handling data transformations as required.
 
