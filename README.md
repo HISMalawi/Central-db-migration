@@ -55,5 +55,5 @@ database: The name of the database to connect to.
 
 #### 3. Tables_to_migrate
 
-Lists of tables
+List of tables
 
