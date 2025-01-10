@@ -53,4 +53,7 @@ password: The password for authentication (leave blank if no password is require
 database: The name of the database to connect to.
 ```
 
+### 2. Ta 
+
+Lists of tables
 
