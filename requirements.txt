@@ -1,0 +1,6 @@
+# General dependencies for data migration
+mysql-connector-python==8.0.33
+pandas==1.5.3
+SQLAlchemy==2.0.16
+python-dotenv==1.0.0  
+loguru==0.7.0  
