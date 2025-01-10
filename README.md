@@ -26,5 +26,20 @@ This Python script is used to migrate data from multiple facility databases to a
 
 ## Configuration
 
+The migration script uses a YAML configuration file to define database connections, source databases, and the tables to migrate. This file centralizes all configuration details, making the migration process flexible and easy to manage.
+
+---
+
+## Key Sections
+
+### 1. **Central Database (`central_db`)**
+
+Defines the connection string for the central database where the data will be consolidated. This is specified using SQLAlchemy's database URI format.
+
+**Format**:  
+```yaml
+central_db: "mysql+pymysql://<user>:<password>@<host>/<database>"
+
+
 
 
