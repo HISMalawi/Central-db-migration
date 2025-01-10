@@ -39,7 +39,6 @@ Defines the connection string for the central database where the data will be co
 **Format**:  
 ```yaml
 central_db: "mysql+pymysql://<user>:<password>@<host>/<database>"
-
-
+```
 
 
