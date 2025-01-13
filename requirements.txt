@@ -1,5 +1,5 @@
 # General dependencies for data migration
-pymysql == 
+pymysql ==1.0.3
 pandas==1.5.3
 SQLAlchemy==2.0.16
 python-dotenv==1.0.0  
