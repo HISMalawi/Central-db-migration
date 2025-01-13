@@ -17,7 +17,7 @@ This Python script is used to migrate data from multiple facility databases to a
 
 - **Python version**: `>=3.8`
 - Required Python packages (install using `pip install -r requirements.txt`):
-  - `mysql-connector-python`
+  - `pymysql`
   - `pandas`
   - `sqlalchemy`
 
