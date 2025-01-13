@@ -20,7 +20,6 @@ This Python script is used to migrate data from multiple facility databases to a
   - `mysql-connector-python`
   - `pandas`
   - `sqlalchemy`
-  - `logging`
 
 ---
 
